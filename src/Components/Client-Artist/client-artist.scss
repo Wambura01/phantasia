@@ -1,0 +1,202 @@
+$primary-color: #654321;
+
+.client-artist__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+
+  .are-you__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .client-artist__content {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    top: 45rem;
+
+    .client-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      width: 50%;
+      position: relative;
+      background-color: $primary-color;
+      color: white;
+
+      .title-container {
+        width: 90%;
+
+        .title {
+          margin: 1rem 0;
+          font-family: "Source Sans Pro", sans-serif;
+          font-size: 8.5rem;
+          font-weight: bold;
+        }
+      }
+
+      .booking-container {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .image-container {
+          width: 90%;
+          height: 400px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+
+          img {
+            width: 100%;
+            height: 100%;
+          }
+        }
+
+        .heading-container {
+          width: 90%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+
+          .heading {
+            font-family: "Source Sans Pro", sans-serif;
+            font-size: 2rem;
+            font-weight: bold;
+          }
+        }
+
+        .link-container {
+          width: 40%;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: flex-start;
+
+          .booking-link {
+            font-size: 1.2rem;
+            margin-top: 0;
+            display: flex;
+            width: 100%;
+            align-items: center;
+            cursor: pointer;
+
+            span {
+              margin-right: 0.8rem;
+              .icon {
+                font-size: 1rem;
+              }
+            }
+          }
+
+          .booking-link:hover {
+            font-weight: 600;
+            color: black;
+            padding-bottom: 0.15rem;
+            border-bottom: 2px solid black;
+          }
+        }
+      }
+    }
+
+    .artist-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      width: 50%;
+      color: $primary-color;
+
+      .title-container {
+        width: 90%;
+
+        .title {
+          margin: 1rem 0;
+          font-family: "Source Sans Pro", sans-serif;
+          font-size: 8.5rem;
+          font-weight: bold;
+        }
+      }
+
+      .booking-container {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .image-container {
+          width: 90%;
+          height: 400px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+
+          img {
+            width: 100%;
+            height: 100%;
+          }
+        }
+
+        .heading-container {
+          width: 90%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+
+          .heading {
+            font-family: "Source Sans Pro", sans-serif;
+            font-size: 2rem;
+            font-weight: bold;
+          }
+        }
+
+        .link-container {
+          width: 50%;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: flex-start;
+
+          .booking-link {
+            font-size: 1.2rem;
+            margin: 0.45rem 0 0 0;
+            display: flex;
+            width: 100%;
+            align-items: center;
+            cursor: pointer;
+
+            span {
+              margin-right: 0.8rem;
+              .icon {
+                font-size: 1rem;
+              }
+            }
+          }
+
+          .booking-link:nth-child(4) {
+            margin-bottom: 0;
+          }
+
+          .booking-link:hover {
+            font-weight: 600;
+            color: black;
+            padding-bottom: 0.15rem;
+            border-bottom: 2px solid black;
+          }
+        }
+      }
+    }
+  }
+}
