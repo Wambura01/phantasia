@@ -9,6 +9,7 @@ $primary-color: #654321;
   align-items: center;
   justify-content: space-between;
   background-color: rgba(255, 255, 255, 0.7);
+  z-index: 10;
 
   .logo-container {
     padding-top: 0.5rem;
@@ -19,6 +20,11 @@ $primary-color: #654321;
     width: 40%;
     justify-content: space-around;
     align-items: center;
+
+    .nav-link {
+      text-decoration: none;
+      color: black;
+    }
 
     p {
       margin: 0;

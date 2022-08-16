@@ -1,0 +1,301 @@
+{
+  "seminars": [
+    {
+      "id": "c3f04338-7ee3-49c3-86fe-d5b6048a9bda",
+      "name": "Nasua nasua",
+      "number": 50,
+      "location": "Virginia",
+      "price": "$30.17",
+      "date": "3/11/2022",
+      "days": 3
+    },
+    {
+      "id": "3618ffeb-4f4a-4a5a-a1f6-1e3a0690eeb7",
+      "name": "Naja haje",
+      "number": 46,
+      "location": "New Jersey",
+      "price": "$5.56",
+      "date": "6/11/2022",
+      "days": 6
+    },
+    {
+      "id": "37fb5222-d277-4775-840d-6cd050876f2a",
+      "name": "Anas punctata",
+      "number": 45,
+      "location": "District of Columbia",
+      "price": "$35.26",
+      "date": "10/10/2021",
+      "days": 8
+    },
+    {
+      "id": "88550011-b327-4aca-8878-3a44317c5de3",
+      "name": "Macropus rufogriseus",
+
+      "number": 39,
+      "location": "Utah",
+      "price": "$3.81",
+      "date": "8/30/2021",
+      "days": 4
+    },
+    {
+      "id": "f0db3a74-ac3b-400b-8807-c207bcb121b0",
+      "name": "Herpestes javanicus",
+
+      "number": 34,
+      "location": "Pennsylvania",
+      "price": "$36.14",
+      "date": "4/23/2022",
+      "days": 1
+    },
+    {
+      "id": "431e06c9-784d-40ea-9d0e-97cd44f14ea8",
+      "name": "Junonia genoveua",
+
+      "number": 49,
+      "location": "Alabama",
+      "price": "$2.41",
+      "date": "5/16/2022",
+      "days": 8
+    },
+    {
+      "id": "1abcb734-7240-4e84-ba6b-6146058fdf97",
+      "name": "Corvus brachyrhynchos",
+
+      "number": 32,
+      "location": "Kansas",
+      "price": "$74.34",
+      "date": "5/24/2022",
+      "days": 9
+    },
+    {
+      "id": "c2df44ee-7294-436e-b6e0-3387add0cfff",
+      "name": "unavailable",
+
+      "number": 37,
+      "location": "California",
+      "price": "$7.45",
+      "date": "4/9/2022",
+      "days": 10
+    },
+    {
+      "id": "da8a4970-90d1-4195-a4f7-6d775d2885ef",
+      "name": "Dasypus novemcinctus",
+
+      "number": 4,
+      "location": "California",
+      "price": "$81.31",
+      "date": "3/24/2022",
+      "days": 5
+    },
+    {
+      "id": "aa5e3ace-c521-4cfa-aa8b-b823c280cd8a",
+      "name": "Sciurus vulgaris",
+
+      "number": 49,
+      "location": "Arizona",
+      "price": "$46.31",
+      "date": "8/3/2022",
+      "days": 1
+    },
+    {
+      "id": "aa1952cc-f46f-40c4-8f20-34bb9acfb1ad",
+      "name": "Streptopelia senegalensis",
+
+      "number": 49,
+      "location": "Iowa",
+      "price": "$35.44",
+      "date": "11/6/2021",
+      "days": 6
+    },
+    {
+      "id": "89a1f1ef-e4e0-44f8-ac32-5e95e193a83c",
+      "name": "Psophia viridis",
+
+      "number": 46,
+      "location": "Minnesota",
+      "price": "$68.85",
+      "date": "4/16/2022",
+      "days": 3
+    },
+    {
+      "id": "94df1d61-529a-4f3c-b5ed-1de038f6c760",
+      "name": "Uraeginthus granatina",
+
+      "number": 44,
+      "location": "Texas",
+      "price": "$39.35",
+      "date": "8/25/2021",
+      "days": 5
+    },
+    {
+      "id": "abe14fc5-cb4b-4d44-81f1-6e6805d103d4",
+      "name": "Terathopius ecaudatus",
+
+      "number": 34,
+      "location": "Arizona",
+      "price": "$78.26",
+      "date": "2/19/2022",
+      "days": 1
+    },
+    {
+      "id": "6837d37e-1b52-4b9c-9cc0-32c0bb065569",
+      "name": "Laniarius ferrugineus",
+
+      "number": 21,
+      "location": "Florida",
+      "price": "$39.19",
+      "date": "6/26/2022",
+      "days": 6
+    },
+    {
+      "id": "c8db86e3-e088-45d8-9795-db10fa6fd08b",
+      "name": "Ceryle rudis",
+
+      "number": 42,
+      "location": "North Carolina",
+      "price": "$89.02",
+      "date": "7/5/2022",
+      "days": 2
+    },
+    {
+      "id": "7274a19a-1417-4830-a36f-5c4e15adc7d1",
+      "name": "Tiliqua scincoides",
+
+      "number": 30,
+      "location": "Florida",
+      "price": "$8.13",
+      "date": "9/2/2021",
+      "days": 3
+    },
+    {
+      "id": "0e00a5ad-63a1-4b44-86a0-9ae1119c146f",
+      "name": "Larus dominicanus",
+
+      "number": 40,
+      "location": "Minnesota",
+      "price": "$87.98",
+      "date": "4/2/2022",
+      "days": 8
+    },
+    {
+      "id": "33f12d6a-eb31-41db-ae8f-87e83c37713d",
+      "name": "Sylvilagus floridanus",
+
+      "number": 13,
+      "location": "Florida",
+      "price": "$54.08",
+      "date": "11/5/2021",
+      "days": 4
+    },
+    {
+      "id": "a6d0b409-3cc8-4de5-9493-8549f790c4ac",
+      "name": "Isoodon obesulus",
+
+      "number": 25,
+      "location": "Oklahoma",
+      "price": "$38.50",
+      "date": "10/29/2021",
+      "days": 1
+    },
+    {
+      "id": "99d3bc8a-2a68-4af3-a80c-a1e4c7e06f00",
+      "name": "Axis axis",
+
+      "number": 35,
+      "location": "Iowa",
+      "price": "$6.60",
+      "date": "12/18/2021",
+      "days": 1
+    },
+    {
+      "id": "f20fc57d-4883-408c-88b3-a0b49af23177",
+      "name": "Charadrius tricollaris",
+
+      "number": 44,
+      "location": "Washington",
+      "price": "$63.22",
+      "date": "10/3/2021",
+      "days": 3
+    },
+    {
+      "id": "64d9b2d3-20cb-42c2-81a8-2884f5b2b6a1",
+      "name": "Ammospermophilus nelsoni",
+
+      "number": 8,
+      "location": "Georgia",
+      "price": "$4.60",
+      "date": "11/7/2021",
+      "days": 1
+    },
+    {
+      "id": "f0fe5ca0-0a9c-462e-91ee-d0e7ca862a4f",
+      "name": "Paraxerus cepapi",
+
+      "number": 24,
+      "location": "Alabama",
+      "price": "$97.62",
+      "date": "4/28/2022",
+      "days": 6
+    },
+    {
+      "id": "832cc9b9-f021-4e01-bca6-b5a2a3cfb87f",
+      "name": "Cervus elaphus",
+
+      "number": 45,
+      "location": "Illinois",
+      "price": "$88.30",
+      "date": "1/7/2022",
+      "days": 4
+    },
+    {
+      "id": "2037184e-2d8c-4b3a-8770-942239b9db5f",
+      "name": "Smithopsis crassicaudata",
+
+      "number": 40,
+      "location": "Illinois",
+      "price": "$47.32",
+      "date": "2/14/2022",
+      "days": 7
+    },
+    {
+      "id": "880fa0d5-7136-4a28-9a5c-167d8e753847",
+      "name": "Spermophilus richardsonii",
+
+      "number": 9,
+      "location": "Iowa",
+      "price": "$53.64",
+      "date": "7/11/2022",
+      "days": 1
+    },
+    {
+      "id": "d84d69d4-6d9c-4796-a1bc-b9bbf4aaba8f",
+      "name": "Varanus salvator",
+
+      "number": 25,
+      "location": "Tennessee",
+      "price": "$71.27",
+      "date": "9/9/2021",
+      "days": 5
+    },
+    {
+      "id": "ca6ea587-b12c-4c98-aea8-f0d72715fb7a",
+      "name": "Phalaropus lobatus",
+
+      "number": 17,
+      "location": "Texas",
+      "price": "$7.93",
+      "date": "2/18/2022",
+      "days": 2
+    },
+    {
+      "id": "acd673bf-07cc-4458-9640-8a0dd7e99c0b",
+      "name": "Phasianus colchicus",
+
+      "number": 28,
+      "location": "Oklahoma",
+      "price": "$81.54",
+      "date": "2/7/2022",
+      "days": 5
+    }
+  ]
+}
