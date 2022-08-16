@@ -4,9 +4,9 @@ import Navigation from "../Navigation/navigation";
 
 import bgVideo from "../../Assets/Brown.mp4";
 
-import "./landing.scss";
+import "./homeLanding.scss";
 
-function Landing() {
+function HomeLanding() {
   return (
     <div className="landing-container">
       <div className="video-container">
@@ -25,4 +25,4 @@ function Landing() {
   );
 }
 
-export default Landing;
+export default HomeLanding;

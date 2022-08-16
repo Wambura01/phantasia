@@ -1,13 +1,16 @@
-import Landing from "./Components/Landing/landing";
-import ClientArtist from "./Components/Client-Artist/client-artist";
+import { Routes, Route } from "react-router-dom";
 
 import "./App.css";
+import Homepage from "./Pages/Homepage/homepage";
+import Seminars from "./Pages/Seminars/seminars";
 
 function App() {
   return (
     <div className="App">
-      <Landing />
-      <ClientArtist />
+      <Routes>
+        <Route path="/" element={<Homepage />} />
+        <Route path="/seminars" element={<Seminars />} />
+      </Routes>
     </div>
   );
 }
