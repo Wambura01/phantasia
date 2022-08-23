@@ -23,8 +23,10 @@ function SeminarContainer({ seminars }) {
               <img src={placeholder} alt="art placeholder" />
             </div>
             <div className="text-container">
-              <p className="name">{seminar.name}</p>
-              <p className="location">{seminar.location}</p>
+              <div className="titles">
+                <p className="name">{seminar.name}</p>
+                <p className="location">{seminar.location}</p>
+              </div>
               <div className="info">
                 <p className="text">
                   <span>Attendees:</span> {seminar.number}
