@@ -1,23 +1,10 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import Navigation from "../Navigation/navigation";
 
 import "./seminarLanding.scss";
 import SeminarContainer from "../SeminarContainer/seminarContainer";
 
 function SeminarLanding() {
-  const [seminars, setSeminars] = useState([]);
-
-  useEffect(() => {
-    const fetchSeminars = async () => {
-      const url = "http://localhost:3001/seminars";
-      await fetch(url)
-        .then((response) => response.json())
-        .then((data) => setSeminars(data));
-    };
-
-    fetchSeminars();
-  }, []);
-
   return (
     <div className="seminars-page__container">
       <Navigation />
@@ -34,7 +21,7 @@ function SeminarLanding() {
         </div>
         <div className="right"></div>
       </div>
-      <SeminarContainer seminars={seminars} />
+      <SeminarContainer />
     </div>
   );
 }
