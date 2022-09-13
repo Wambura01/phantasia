@@ -17,23 +17,16 @@ function SeminarContainer() {
   const dispatch = useDispatch();
   const seminars = useSelector((state) => state.seminarReducer.seminarList);
 
+  console.log("SEMINARS: ", seminars);
+
   const [filter, setFilter] = useState("");
-  const [filteredSeminars, setFilteredSeminars] = useState([]);
 
   // handle user input
   const handleChange = (e) => {
     setFilter(e.target.value);
   };
 
-  // handle filter
-  const handleFilter = () => {
-    setFilteredSeminars(filterByName(seminars, filter));
-  };
-
   console.log("Filter", filter);
-
-  console.log("SEMINARS: ", seminars);
-  console.log("FILTERED: ", filteredSeminars);
 
   // fetch seminars on mount
   useEffect(() => {
@@ -52,11 +45,12 @@ function SeminarContainer() {
               marginRight: "1rem",
             }}
           >
-            Search by name:{" "}
+            Search by name:
           </InputLabel>
           <TextField
             label="By Name"
             variant="outlined"
+            value={filter}
             onChange={handleChange}
             InputProps={{
               endAdornment: (
@@ -64,7 +58,6 @@ function SeminarContainer() {
                   <SearchIcon
                     component={motion.svg}
                     whileTap={{ scale: 0.6 }}
-                    onClick={handleFilter}
                   />
                 </InputAdornment>
               ),
@@ -94,7 +87,7 @@ function SeminarContainer() {
         </div>
       </div>
       <div className="seminars">
-        {filteredSeminars?.map((seminar) => (
+        {filterByName(seminars, filter)?.map((seminar) => (
           <div key={seminar.id} className="seminar">
             <div className="img-container">
               <img src={placeholder} alt="art placeholder" />
