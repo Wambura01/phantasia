@@ -4,12 +4,17 @@ import { motion } from "framer-motion";
 
 import { getSeminars } from "../../Redux/Actions/seminarActions";
 
-import { TextField, InputAdornment, InputLabel } from "@mui/material";
+import {
+  TextField,
+  InputAdornment,
+  InputLabel,
+  Autocomplete,
+} from "@mui/material";
 import SearchIcon from "@mui/icons-material/Search";
 
 import placeholder from "../../Assets/art-placeholder.jpg";
 
-import { filterByName } from "../../Utils/filterByName";
+import { filterData } from "../../Utils/filterData";
 
 import "./seminarContainer.scss";
 
@@ -23,6 +28,12 @@ function SeminarContainer() {
 
   // handle user input
   const handleChange = (e) => {
+    setFilter(e.target.value);
+  };
+
+  //handle user selection
+  const handleSelect = (e) => {
+    console.log("SELECTED: ", e.target.value);
     setFilter(e.target.value);
   };
 
@@ -50,7 +61,6 @@ function SeminarContainer() {
           <TextField
             label="By Name"
             variant="outlined"
-            value={filter}
             onChange={handleChange}
             InputProps={{
               endAdornment: (
@@ -85,9 +95,47 @@ function SeminarContainer() {
             placeholder="Type to filter..."
           />
         </div>
+        <div className="location-filter">
+          <InputLabel
+            sx={{
+              fontFamily: `"Source Sans Pro", sans-serif`,
+              color: "#2b2d2f",
+              fontSize: "1.2rem",
+              marginRight: "1rem",
+            }}
+          >
+            Search by location:
+          </InputLabel>
+          <Autocomplete
+            disablePortal
+            id="combo-box-demo"
+            options={seminars?.map((seminar) => seminar.location)}
+            onChange={(event, value) => setFilter(value)}
+            sx={{
+              width: 300,
+
+              "& label.Mui-focused": {
+                color: "#654321",
+              },
+
+              "& .MuiOutlinedInput-root": {
+                "& fieldset": {
+                  borderColor: "black",
+                },
+                "&:hover fieldset": {
+                  borderColor: "#2b2d2f",
+                },
+                "&.Mui-focused fieldset": {
+                  borderColor: "#2b2d2f",
+                },
+              },
+            }}
+            renderInput={(params) => <TextField {...params} label="Location" />}
+          />
+        </div>
       </div>
       <div className="seminars">
-        {filterByName(seminars, filter)?.map((seminar) => (
+        {filterData(seminars, filter)?.map((seminar) => (
           <div key={seminar.id} className="seminar">
             <div className="img-container">
               <img src={placeholder} alt="art placeholder" />
